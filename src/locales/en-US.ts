@@ -29,7 +29,7 @@ export default {
   },
   chat: {
     newChatButton: 'New Chat',
-    placeholder: 'Ask me anything...(Shift + Enter = line break, "/" to trigger prompts)',
+    placeholder: 'This is Edward AI Chat. Ask me anything...(Shift + Enter = line break, "/" to trigger prompts)',
     placeholderMobile: 'Ask me anything...',
     copy: 'Copy',
     copied: 'Copied',
