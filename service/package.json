@@ -1,8 +1,8 @@
 {
-  "name": "chatgpt-web-service",
+  "name": "Edward AI Chat",
   "version": "1.0.0",
   "private": false,
-  "description": "ChatGPT Web Service",
+  "description": "Edward AI Chat",
   "author": "ChenZhaoYu <chenzhaoyu1994@gmail.com>",
   "keywords": [
     "chatgpt-web",
