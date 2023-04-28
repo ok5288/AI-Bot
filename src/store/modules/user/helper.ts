@@ -15,7 +15,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://raw.githubusercontent.com/ok5266/AI-Bot/main/src/assets/avatar.jpg',
+      avatar: 'https://github.com/ok5266/AI-Bot/blob/main/public/icon.svg',
       name: 'Edward AI Chat',
       description: 'Homepage: <a href="http://www.ok5266.com" class="text-blue-500" target="_blank" >OK5266</a>',
     },
