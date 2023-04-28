@@ -49,7 +49,7 @@ onMounted(() => {
           此项目开来源于
           <a
             class="text-blue-600 dark:text-blue-500"
-            href="https://github.com/ok5266/AI-Bot"
+            href="https://github.com/ok5266/AI-Chat"
             target="_blank"
           >
             GitHub
