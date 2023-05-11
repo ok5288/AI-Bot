@@ -59,6 +59,9 @@ onMounted(() => {
         <p>
           如果你觉得此项目对你有帮助，请在 GitHub 帮我点个 Star，谢谢！
         </p>
+				<p style="text-align: right;">
+          爱德华网络世界(www.ok5266.com)
+        </p>
       </div>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
       <p v-if="isChatGPTAPI">
