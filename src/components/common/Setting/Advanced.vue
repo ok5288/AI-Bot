@@ -43,6 +43,7 @@ function handleReset() {
         <span class="flex-shrink-0 w-[120px]">{{ $t('setting.temperature') }} </span>
         <div class="flex-1">
           <NSlider v-model:value="temperature" :max="1" :min="0" :step="0.1" />
+					<NSlider v-model:value="temperature" :max="2" :min="0" :step="0.1" />
         </div>
         <span>{{ temperature }}</span>
         <NButton size="tiny" text type="primary" @click="updateSettings({ temperature })">
