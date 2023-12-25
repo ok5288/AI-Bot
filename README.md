@@ -284,6 +284,9 @@ services:
 
 > Environment variables are consistent with Docker environment variables
 
+### Deploy with Vercell
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fok5266%2FAI-Bot&env=OPENAI_API_KEY&env=CODE&project-name=AI-Bot&repository-name=AI-Bot), remember that `CODE` is your page password;
+
 ### 手动打包
 #### 后端服务
 > 如果你不需要本项目的 `node` 接口，可以省略如下操作
