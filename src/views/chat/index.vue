@@ -479,12 +479,12 @@ onUnmounted(() => {
           :class="[isMobile ? 'p-2' : 'p-4']"
         >
           <template v-if="!dataSources.length">
-						<div class="flex items-center justify-center mt-4 text-center">
-    						<img src="http://www.ok5266.com/ai/src/assets/avatar2.jpg" alt="Edward AI Chat">
-						</div>
+            <div class="flex items-center justify-center">
+               <img src="http://www.ok5266.com/ai/src/assets/avatar2.jpg" alt="Edward AI Chat" style="user-select: none;">
+            </div>
             <div class="flex items-center justify-center mt-4 text-center text-neutral-300">
               <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
-              <span>Welcome to <strong>Edward AI Chat</strong>!</span>
+              <span>Welcome to <strong>Edward AI Chat</strong>~</span>
             </div>
           </template>
           <template v-else>
