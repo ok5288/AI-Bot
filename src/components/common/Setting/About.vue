@@ -46,7 +46,7 @@ onMounted(() => {
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
         <p>
-          此项目开来源于
+          此项目来源于
           <a
             class="text-blue-600 dark:text-blue-500"
             href="https://github.com/ok5266/AI-Chat"
@@ -57,7 +57,7 @@ onMounted(() => {
           ，免费且基于 MIT 协议，没有任何形式的付费行为！
         </p>
         <p>
-          如果你觉得此项目对你有帮助，请在 GitHub 帮我点个 Star，谢谢！
+          如果你觉得此项目对你有帮助，请在本站帮我点击一则广告，谢谢！
         </p>
 				<p style="text-align: right;">
           爱德华网络世界(<a class="text-blue-600 dark:text-blue-500" href="http://www.ok5266.com" target="_blank">www.ok5266.com</a>)
