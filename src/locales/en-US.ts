@@ -26,6 +26,7 @@ export default {
     failed: 'Failed',
     verify: 'Verify',
     unauthorizedTips: 'Unauthorized, please verify first.',
+		stopResponding: 'Stop Responding',
   },
   chat: {
     newChatButton: 'New Chat',
@@ -75,6 +76,10 @@ export default {
     httpsProxy: 'HTTPS Proxy',
     balance: 'API Balance',
     monthlyUsage: 'Monthly Usage',
+		openSource: 'This project is open sourced at',
+    freeMIT: 'free and based on the MIT license, without any form of paid behavior!',
+    stars: 'If you find this project helpful, please click an ad-link on this website, thank you!',
+    webinfo: 'Edward Web World',
   },
   store: {
     siderButton: 'Prompt Store',
