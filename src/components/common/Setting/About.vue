@@ -46,7 +46,7 @@ onMounted(() => {
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
         <p style="text-align:justify;text-indent:2em;">
-          此项目来源于
+          {{ $t("setting.openSource") }}
           <a
             class="text-blue-600 dark:text-blue-500"
             href="https://github.com/ok5266/AI-Chat"
@@ -54,13 +54,13 @@ onMounted(() => {
           >
             GitHub
           </a>
-          ，免费且基于 MIT 协议。信息由AI自动生成，请自行辨识真伪。Edward AI Chat 保证绝对没有任何形式的付费或欺诈行为！
+          ，{{ $t("setting.freeMIT") }}
         </p>
         <p style="text-align:justify;text-indent:2em;">
-          如果您觉得此项目对您有帮助，请在本站点击一则广告，谢谢您的支持！
+          {{ $t("setting.stars") }}
         </p>
-                                <p style="text-align: right;">
-          爱德华网络世界(<a class="text-blue-600 dark:text-blue-500" href="http://www.ok5266.com" target="_blank">www.ok5266.com</a>)
+        <p style="text-align: right;">
+          {{ $t("setting.webinfo") }}(<a class="text-blue-600 dark:text-blue-500" href="http://www.ok5266.com" target="_blank">www.ok5266.com</a>)
         </p>
       </div>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
