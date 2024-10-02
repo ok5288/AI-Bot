@@ -53,11 +53,8 @@ const wrapClass = computed(() => {
 
 const text = computed(() => {
   const value = props.text ?? ''
-  if (!props.asRawText) {
-    // 对数学公式进行处理，自动添加 $$ 符号
-    const escapedText = escapeBrackets(escapeDollarNumber(value))
-    return mdi.render(escapedText)
-  }	
+  if (!props.asRawText)
+    return mdi.render(value)
   return value
 })
 
